@@ -1,6 +1,3 @@
-# block.nvim
-Use blocks to highlight current scope! 
-=======
 # current-block.nvim
 
 A Neovim plugin that highlights the current code block under the cursor with transparency support.
