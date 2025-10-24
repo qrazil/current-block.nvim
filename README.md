@@ -22,7 +22,7 @@ A Neovim plugin that highlights the current code block under the cursor with tra
 ### Using [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua
 {
-  "yourusername/current-block.nvim",
+  "qrazil/current-block.nvim",
   config = function()
     require("current-block").setup({
       highlight_group = "CurrentBlock",
@@ -37,7 +37,7 @@ A Neovim plugin that highlights the current code block under the cursor with tra
 ### Using [packer.nvim](https://github.com/wbthomason/packer.nvim)
 ```lua
 use {
-  "yourusername/current-block.nvim",
+  "qrazil/current-block.nvim",
   config = function()
     require("current-block").setup()
   end
@@ -46,7 +46,7 @@ use {
 
 ### Using [vim-plug](https://github.com/junegunn/vim-plug)
 ```vim
-Plug 'yourusername/current-block.nvim'
+Plug 'qrazil/current-block.nvim'
 
 lua << EOF
 require("current-block").setup()
