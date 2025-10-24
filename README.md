@@ -86,5 +86,4 @@ The plugin detects code blocks based on indentation levels and highlights all li
 
 ## License
 
-MIT License - see LICENSE file for details
->>>>>>> 099da2f (initial commit)
+Apache License - see LICENSE file for details
